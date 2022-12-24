@@ -1,0 +1,15 @@
+name: KillCounter
+main: CraftCamp\KillCounter\Main
+api: [4.0.0]
+version: 1.0.0
+author: CraftCamp
+
+commands:
+  kills:
+    description: "Shows how many kills you have."
+    permission: killcounter.use
+    aliases: ['kc']
+
+permissions:
+  killcounter.use:
+    default: true
